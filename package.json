@@ -1,0 +1,25 @@
+{
+    "name": "xs-language",
+    "displayName": "XS Language",
+    "description": "XS language support for VS Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "xs",
+            "aliases": ["XS", "xs"],
+            "extensions": [".xs"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "xs",
+            "scopeName": "source.xs",
+            "path": "./syntaxes/xs.tmLanguage.json"
+        }]
+    }
+}
