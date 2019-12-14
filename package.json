@@ -2,7 +2,7 @@
     "name": "xs-language",
     "displayName": "XS Language",
     "description": "XS language support for VS Code",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "author": "CraicOverflow89",
     "publisher": "CraicOverflow89",
     "license": "MIT",
@@ -10,11 +10,11 @@
         "vscode": "^1.41.0"
     },
     "repository": {
-      "type": "git",
-      "url": "https://github.com/CraicOverflow89/VSC-XS-Language.git"
+        "type": "git",
+        "url": "https://github.com/CraicOverflow89/VSC-XS-Language.git"
     },
     "bugs": {
-      "url": "https://github.com/CraicOverflow89/VSC-XS-Language/issues"
+        "url": "https://github.com/CraicOverflow89/VSC-XS-Language/issues"
     },
     "icon": "images/logo.png",
     "categories": [
@@ -24,16 +24,25 @@
         "xs"
     ],
     "contributes": {
-        "languages": [{
-            "id": "xs",
-            "aliases": ["XS", "xs"],
-            "extensions": [".xs"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "xs",
-            "scopeName": "source.xs",
-            "path": "./syntaxes/xs.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "xs",
+                "aliases": [
+                    "XS",
+                    "xs"
+                ],
+                "extensions": [
+                    ".xs"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "xs",
+                "scopeName": "source.xs",
+                "path": "./syntaxes/xs.tmLanguage.json"
+            }
+        ]
     }
 }
