@@ -1,7 +1,7 @@
 XS Language
 ===========
 
-Provides language support for the `xs` random map scripts.
+Provides XS language support for VS Code.
 
 ### Installation
 

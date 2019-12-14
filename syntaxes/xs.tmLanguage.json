@@ -19,11 +19,12 @@
 		"comments": {
 			"patterns": [{
 				"name": "comment.line.double-slash.xs",
-				"match": "//.*\n"
+				"match": "//.*"
 			},
 			{
 				"name": "comment.line.double-slash.xs",
-				"match": "/\\*.*\\**/"
+				"begin": "/\\*",
+				"end": "\\*/"
 			}]
 		},
 		"constants": {
