@@ -15,4 +15,4 @@ ext install xs-language
 
 Provides syntax highlighting for comments, control structures, quoted strings and boolean / numeric constants.
 
-![Syntax Highlighting](./images/syntax.png)
+![Syntax Highlighting](./resources/images/syntax.png)
