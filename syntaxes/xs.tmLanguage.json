@@ -40,11 +40,11 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.xs",
-				"match": "\\b(if|else|while|for|return)\\b"
+				"match": "\\b(if|else|while|for|return|break|continue|switch|case|default)\\b"
 			},
 			{
 				"name": "keyword.other.xs",
-				"match": "\\b(include|int|float|string|void)\\b"
+				"match": "\\b(bool|include|int|float|string|vector|void)\\b"
 			}]
 		},
 		"strings": {
