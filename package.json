@@ -2,7 +2,7 @@
     "name": "xs-language",
     "displayName": "XS Language",
     "description": "XS language support for VS Code",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "author": "CraicOverflow89",
     "publisher": "CraicOverflow89",
     "license": "MIT",
