@@ -8,7 +8,7 @@ Provides XS language support for VS Code.
 You can install the plugin by accessing the [XS Language extension](https://marketplace.visualstudio.com/items?itemName=CraicOverflow89.xs-language) in the [market place](https://marketplace.visualstudio.com/vscode), or by using the command pallete.
 
 ```
-ext install xs-language
+ext install CraicOverflow89.xs-language
 ```
 
 ### Features
